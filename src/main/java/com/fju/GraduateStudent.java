@@ -5,9 +5,9 @@ public class GraduateStudent extends Student {
     public GraduateStudent(String name,int english,int math, int thesis){
         super(name, english, math);
         this.thesis = thesis;
-
     }
-    public void print(){
 
+    public void print(){
+        System.out.println(name+"\t"+english+"\t"+math+"\t"+getave()+"\t"+thesis);
     }
 }
