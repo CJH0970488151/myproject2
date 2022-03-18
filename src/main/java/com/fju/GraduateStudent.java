@@ -7,7 +7,9 @@ public class GraduateStudent extends Student {
         this.thesis = thesis;
     }
 
+    @Override
     public void print(){
+
         System.out.println(name+"\t"+english+"\t"+math+"\t"+getave()+"\t"+thesis);
     }
 }

@@ -1,10 +1,18 @@
-com/fju/Student.java
- com.fju.Student
+com/fju/Scoring.java
+ com.fju.Scoring
 com/fju/Hello.java
  com.fju.Hello
 com/fju/sortingNG.java
  com.fju.sortingNG
+com/fju/Student.java
+ com.fju.Student
 com/fju/GraduateStudent.java
  com.fju.GraduateStudent
-com/fju/Scoring.java
- com.fju.Scoring
+com/fju/Customer.java
+ com.fju.Customer
+com/fju/Silvercustomer.java
+ com.fju.Silvercustomer
+com/fju/Goldcustomer.java
+ com.fju.Goldcustomer
+com/fju/Test.java
+ com.fju.Test
