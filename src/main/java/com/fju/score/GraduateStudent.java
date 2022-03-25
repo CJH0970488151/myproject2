@@ -1,4 +1,6 @@
-package com.fju;
+package com.fju.score;
+
+import com.fju.score.Student;
 
 public class GraduateStudent extends Student {
     int thesis;

@@ -5,27 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0949447-69ae-4b25-b5cb-11e54a0ac794" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/Goldcustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/Silvercustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/GraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/GraduateStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/Goldcustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/Goldcustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/GraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/GraduateStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/Scoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/Scoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/Silvercustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/Silvercustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/sortingNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/sortingNG.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="25uW0pF7hQTHNU4oDH4es8V13pf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -66,11 +64,11 @@
       </method>
     </configuration>
     <configuration name="Scoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fju.Scoring" />
+      <option name="MAIN_CLASS_NAME" value="com.fju.score.Scoring" />
       <module name="myproject2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fju.*" />
+          <option name="PATTERN" value="com.fju.score.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fju.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.fju.sales.Test" />
       <module name="myproject2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fju.*" />
+          <option name="PATTERN" value="com.fju.score.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,7 +90,7 @@
       </method>
     </configuration>
     <configuration name="sortingNG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fju.sortingNG" />
+      <option name="MAIN_CLASS_NAME" value="com.fju.score.sortingNG" />
       <module name="myproject2.main" />
       <method v="2">
         <option name="Make" enabled="true" />

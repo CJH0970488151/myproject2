@@ -1,4 +1,8 @@
-package com.fju;
+package com.fju.sales;
+
+import com.fju.sales.Customer;
+import com.fju.sales.Goldcustomer;
+import com.fju.sales.Silvercustomer;
 
 public class Test {
     public static void main(String[] args) {

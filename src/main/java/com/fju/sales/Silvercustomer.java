@@ -1,4 +1,4 @@
-package com.fju;
+package com.fju.sales;
 
 public class Silvercustomer extends Customer {
 
