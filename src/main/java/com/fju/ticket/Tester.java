@@ -5,8 +5,16 @@ import java.util.Scanner;
 public class Tester {
     public static void main(String[] args) {
         Ticket ticket = new Ticket(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
-        Student c1 = new Student(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
-        c1.print();
+        Normalperson normalperson = new Normalperson(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
+        Student student = new Student(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
+        BackandForth backandForth = new BackandForth(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
+        Old old=new Old(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
+        normalperson.print();
+        student.print();
+
+
+
+
 /*        int i = 1;
         int a=600;
         int b=900;

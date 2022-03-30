@@ -2,16 +2,13 @@ package com.fju.ticket;
 
 import java.util.Scanner;
 
-public class Student extends Ticket {
-    int price;
-    int a=600;
-    int b=900;
-    int c=1500;
-    int i=1;
+public class Student extends Normalperson {
+
     public Student(Station start,Station destination){
         super(start,destination);
     }
     public void print(){
+        int i=1;
         Scanner scanner = new Scanner(System.in);
         boolean p = true;
         while (p) {
@@ -23,8 +20,10 @@ public class Student extends Ticket {
                     int n = scanner.nextInt();
                     if (n == 200) {
                         System.out.println("Taipei to Taichung *" + i + "\t" + a*0.8 + "$"+"\t"+"學生票");
+                        price+=a*0.8;
                     } else if (n == 300) {
                         System.out.println("Taipei to Kaohsiung *" + i + "\t" + c*0.8 + "$"+"\t"+"學生票");
+                        price+=c*0.8;
                     }
                     break;
                 case "200":
@@ -32,8 +31,10 @@ public class Student extends Ticket {
                     int k = scanner.nextInt();
                     if (k == 100) {
                         System.out.println("Taichung to Taipei *" + i + "\t" + a*0.8 + "$"+"\t"+"學生票");
+                        price+=a*0.8;
                     } else if (k == 300) {
                         System.out.println("Taichung to Kaohsiung *" + i + "\t" + b*0.8 + "$"+"\t"+"學生票");
+                        price+=b*0.8;
                     }
                     break;
                 case "300":
@@ -41,14 +42,18 @@ public class Student extends Ticket {
                     int t = scanner.nextInt();
                     if (t == 100) {
                         System.out.println("Kaohsiung to Taipei *" + i + "\t" + c*0.8 + "$"+"\t"+"學生票");
+                        price+=c*0.8;
                     } else if (t == 200) {
                         System.out.println("Kaohsiung to Taichung *" + i + "\t" + b*0.8 + "$"+"\t"+"學生票");
+                        price+=b*0.8;
                     }
                     break;
                 default:
+                    System.out.println("Total price:"+price);
                     p = false;
                     break;
             }
+
 
         }
     }
