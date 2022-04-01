@@ -2,27 +2,39 @@ com/fju/sales/Silvercustomer.java
  com.fju.sales.Silvercustomer
 com/fju/sales/Customer.java
  com.fju.sales.Customer
-com/fju/sales/Test.java
- com.fju.sales.Test
-com/fju/sales/Goldcustomer.java
- com.fju.sales.Goldcustomer
 com/fju/ticket/Ticket.java
  com.fju.ticket.Ticket
+com/fju/sales/Goldcustomer.java
+ com.fju.sales.Goldcustomer
+com/fju/ticket/Station.java
+ com.fju.ticket.Station
 com/fju/score/GraduateStudent.java
  com.fju.score.GraduateStudent
 com/fju/score/Student.java
  com.fju.score.Student
-com/fju/score/Scoring.java
- com.fju.score.Scoring
-com/fju/ticket/Station.java
- com.fju.ticket.Station
-com/fju/ticket/BackandForth.java
- com.fju.ticket.BackandForth
-com/fju/ticket/old.java
- com.fju.ticket.old
-com/fju/score/sortingNG.java
- com.fju.score.sortingNG
+com/fju/ticket/Old.java
+ com.fju.ticket.Old
+com/fju/ticket/Normalperson.java
+ com.fju.ticket.Normalperson
 com/fju/ticket/Tester.java
  com.fju.ticket.Tester
+com/fju/ticket/BackandForth.java
+ com.fju.ticket.BackandForth
 com/fju/ticket/Student.java
  com.fju.ticket.Student
+com/fju/score/sortingNG.java
+ com.fju.score.sortingNG
+com/fju/sales/Test.java
+ com.fju.sales.Test
+com/fju/score/Scoring.java
+ com.fju.score.Scoring
+com/fju/ticket2/StudentTicket.java
+ com.fju.ticket2.StudentTicket
+com/fju/ticket2/Station.java
+ com.fju.ticket2.Station
+com/fju/ticket2/Tester.java
+ com.fju.ticket2.Tester
+com/fju/ticket2/Ticket.java
+ com.fju.ticket2.Ticket
+com/fju/ticket2/ElderTicket.java
+ com.fju.ticket2.ElderTicket
