@@ -1,7 +1,7 @@
 package com.fju.score;
 
-public class Student {
-    String name;
+public class Student implements Printable{
+    public String name;
     int math;
     int english;
 
@@ -16,13 +16,8 @@ public class Student {
         this.math = math;
     }
 
-    public Student(){
-        this("k",-1,-1);
-        //name = "k";
-        //english = -1;
-        //math = -1;
-    }
 
+@Override
     public void print(){
         System.out.print(name+ "\t" + english + "\t" + math + "\t" +getave());
         if(getave()<60){

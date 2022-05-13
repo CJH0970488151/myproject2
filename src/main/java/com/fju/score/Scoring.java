@@ -2,7 +2,7 @@ package com.fju.score;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//修飾字(子) Modifier  public/default(package)/private/protected(子)
 public class Scoring {
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();

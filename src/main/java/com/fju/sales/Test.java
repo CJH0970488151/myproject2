@@ -9,8 +9,8 @@ public class Test {
         List<Customer> customers = new ArrayList<>();
         customers.add(new Customer("0001",1200));
         customers.add(new Customer("0002",2000));
-        customers.add(new Silvercustomer("0003",2000));
-        customers.add(new Goldcustomer("0004",1800));
+        customers.add(new SliverCustomer("0003",2000));
+        customers.add(new GolendCustomer("0004",1800));
 
         for (Customer c : customers){
             c.print();

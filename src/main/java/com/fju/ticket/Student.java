@@ -11,7 +11,7 @@ public class Student extends Normalperson {
         int i=1;
         Scanner scanner = new Scanner(System.in);
         boolean p = true;
-        while (p) {
+       /* while (p) {
             System.out.println("Your start station?(1: Taipei, 2: Taichung, 3: Kaohsiung)");
             String s = scanner.next();
             switch (s) {
@@ -52,9 +52,9 @@ public class Student extends Normalperson {
                     System.out.println("Total price:"+price);
                     p = false;
                     break;
-            }
+            }*/
 
 
         }
     }
-}
+

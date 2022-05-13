@@ -1,29 +1,18 @@
 package com.fju.sales;
 
-
-
 public class Customer {
-    int spend;
     String id;
+    int price;
     float off = 0.1f;
-    public Customer(String id,int spend){
-        this.id = id;
-        this.spend =spend;
-    }
 
+    public Customer(String id,int price){
+        this.id=id;
+        this.price=price;
+    }
+    public float reduce(){
+        return (price/1000)*off*1000;
+    }
     public void print(){
-        int n = (spend/1000)*100;
-        System.out.println(id + "\t" + spend + "\t" + (spend-n)) ;
+        System.out.println(id+"\t"+price+"\t"+(price-reduce()));
     }
-
-
-    }
-
-
-
-
-
-
-
-
-
+}

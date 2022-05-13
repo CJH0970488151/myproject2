@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0949447-69ae-4b25-b5cb-11e54a0ac794" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/ElderTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Station.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/StudentTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/Parking/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/GolendCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/SliverCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/Printable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
@@ -21,9 +22,16 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/sales/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/sales/Goldcustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/sales/Silvercustomer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/sales/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/score/GraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/GraduateStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/score/Scoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/Scoring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/score/sortingNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/sortingNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/score/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,15 +74,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
-  <component name="RunManager" selected="Application.Tester (1)">
-    <configuration name="Scoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fju.score.Scoring" />
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fju.Parking.Runner" />
       <module name="myproject2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fju.score.*" />
+          <option name="PATTERN" value="com.fju.Parking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,15 +91,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fju.sales.Test" />
+    <configuration name="Tes (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fju.Tes" />
       <module name="myproject2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fju.score.*" />
+          <option name="PATTERN" value="com.fju.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tes (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fju.tic.Tes" />
+      <module name="myproject2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fju.tic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tes" />
+      <module name="myproject2.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,33 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fju.ticket.Tester" />
-      <module name="myproject2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fju.ticket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sortingNG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fju.score.sortingNG" />
-      <module name="myproject2.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Tes (2)" />
+        <item itemvalue="Application.Tes (1)" />
+        <item itemvalue="Application.Tes" />
         <item itemvalue="Application.Tester (1)" />
-        <item itemvalue="Application.Tester" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Scoring" />
-        <item itemvalue="Application.sortingNG" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648608590438</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1648813899363</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648813899363</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
