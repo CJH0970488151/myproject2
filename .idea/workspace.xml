@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0949447-69ae-4b25-b5cb-11e54a0ac794" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/Parking/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/GolendCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/SliverCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ui/MyWin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ui/MyactionListner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
@@ -18,19 +14,22 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/sales/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/sales/Goldcustomer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/sales/Silvercustomer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/sales/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/sales/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/score/GraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/GraduateStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/score/Scoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/Scoring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/score/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/score/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket/BackandForth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/BackandForth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Normalperson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Normalperson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Old.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/ElderTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket/ElderTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/StudentTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket/StudentTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fju/ticket2/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.MyWin">
+    <configuration name="MyWin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fju.ui.MyWin" />
+      <module name="myproject2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fju.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fju.Parking.Runner" />
       <module name="myproject2.main" />
@@ -124,26 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tester (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fju.ticket2.Tester" />
-      <module name="myproject2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fju.ticket2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyWin" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Tes (2)" />
         <item itemvalue="Application.Tes (1)" />
         <item itemvalue="Application.Tes" />
-        <item itemvalue="Application.Tester (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648813899363</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit">
+      <created>1652430586635</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652430586635</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -4,60 +4,51 @@ import java.util.Scanner;
 
 public class Tester {
     public static void main(String[] args) {
-        Ticket ticket = new Ticket(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
-        Normalperson normalperson = new Normalperson(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
-        Student student = new Student(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
-        BackandForth backandForth = new BackandForth(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
-        Old old=new Old(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
-        normalperson.print();
-        student.print();
+        //Constructor, constant value
 
-
-
-
-/*        int i = 1;
-        int a=600;
-        int b=900;
-        int c=1500;
-        boolean p = true;
-        while (p){
-            System.out.println("Your start station?(1: Taipei, 2: Taichung, 3: Kaohsiung)");
-            String s = scanner.next();
-            switch (s) {
-                case "100":
-                    System.out.println("Your end station?(2: Taichung, 3: Kaohsiung)");
-                    int n = scanner.nextInt();
-                    if (n == 200) {
-                        System.out.println("Taipei to Taichung *"+i+"\t"+a+"$");
-                    } else if (n == 300) {
-                        System.out.println("Taipei to Kaohsiung *"+i+"\t"+c+"$");
-                    }
-                    break;
-                case "200":
-                    System.out.println("Your end station?(1: Taipei,3: Kaohsiung)");
-                    int k = scanner.nextInt();
-                    if (k == 100) {
-                        System.out.println("Taichung to Taipei *"+i+"\t"+a+"$");
-                }   else if (k == 300) {
-                        System.out.println("Taichung to Kaohsiung *"+i+"\t"+b+"$");
-                }
-                    break;
-                case "300":
-                    System.out.println("Your end station?(1: Taipei, 2: Taichung,)");
-                    int t = scanner.nextInt();
-                    if (t == 100) {
-                        System.out.println("Kaohsiung to Taipei *"+i+"\t"+c+"$");
-                    } else if (t == 200) {
-                        System.out.println("Kaohsiung to Taichung *"+i+"\t"+b+"$");
-                    }
-                    break;
-                default:
-                    p = false;
-                    break;
-            }
-        }*/
-
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Your start station?(1: Taipei, 2: Taichung, 3: Kaohsiung)");
+        int choice = Integer.parseInt(scanner.next());
+        Station start = null;
+        switch (choice) {
+            case 1:
+                start = Station.TAIPEI_STATION;
+                break;
+            case 2:
+                start = Station.TAICHUNG_STATION;
+                break;
+            case 3:
+                start = Station.KAOHSIUNG_STATION;
+                break;
+        }
+        System.out.println("Your destination station?(1: Taipei, 2: Taichung, 3: Kaohsiung)");
+        choice = Integer.parseInt(scanner.next());
+        Station destination = null;
+        switch (choice) {
+            case 1:
+                destination = Station.TAIPEI_STATION;
+                break;
+            case 2:
+                destination = Station.TAICHUNG_STATION;
+                break;
+            case 3:
+                destination = Station.KAOHSIUNG_STATION;
+                break;
+        }
+        //
+        System.out.println("Which kind of ticket? 1)Normal Ticket 2)Student ticket 3)Elder ticket");
+        choice = Integer.parseInt(scanner.next());
+        Ticket ticket = null;
+        switch(choice) {
+            case 1:
+                ticket = new Ticket(start, destination);
+                break;
+            case 2:
+                ticket = new StudentTicket(start, destination);
+                break;
+            case 3:
+                ticket = new ElderTicket(start,destination);
+        }
+        ticket.print();
     }
-
 }

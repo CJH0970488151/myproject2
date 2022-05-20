@@ -1,4 +1,4 @@
-package com.fju.ticket;
+package com.fju.ticket2;
 
 import java.util.Scanner;
 
