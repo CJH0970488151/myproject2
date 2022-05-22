@@ -51,3 +51,8 @@ com/fju/sales/SliverCustomer.java
  com.fju.sales.SliverCustomer
 com/fju/ticket2/BackandForth.java
  com.fju.ticket2.BackandForth
+com/fju/ui2/Win.java
+ com.fju.ui2.Win
+ com.fju.ui2.Win$1
+ com.fju.ui2.Win$2
+ com.fju.ui2.Win$3
