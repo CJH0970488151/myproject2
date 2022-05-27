@@ -61,3 +61,6 @@ com/fju/ui/Myform.java
 com/fju/ui/GuessFrame.java
  com.fju.ui.GuessFrame
  com.fju.ui.GuessFrame$1
+com/fju/ui/GuessFrame2.java
+ com.fju.ui.GuessFrame2
+ com.fju.ui.GuessFrame2$1

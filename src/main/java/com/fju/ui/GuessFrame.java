@@ -9,7 +9,7 @@ import java.util.Random;
 public class GuessFrame extends JFrame {
 
     //Fields
-    JButton button = new JButton("ok");
+    JButton button = new JButton("Guess");
     JLabel label = new JLabel("123");
     JTextField number = new JTextField(7);
     Random random = new Random();

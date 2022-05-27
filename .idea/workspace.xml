@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0949447-69ae-4b25-b5cb-11e54a0ac794" name="Default Changelist" comment="Homework1 Gui guess game">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fju/ui/GuessFrame2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
@@ -47,6 +48,10 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fju/ui/GuessFrame.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fju/ui/MyWin.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="25uW0pF7hQTHNU4oDH4es8V13pf" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,12 +64,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myproject" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
-  <component name="RunManager" selected="Application.GuessFrame">
+  <component name="RunManager" selected="Application.GuessFrame2">
     <configuration name="GuessFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fju.ui.GuessFrame" />
+      <module name="myproject2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fju.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessFrame2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fju.ui.GuessFrame2" />
       <module name="myproject2.main" />
       <extension name="coverage">
         <pattern>
@@ -89,32 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fju.Parking.Runner" />
-      <module name="myproject2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fju.Parking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tes (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fju.tic.Tes" />
-      <module name="myproject2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fju.tic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Win" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fju.ui2.Win" />
       <module name="myproject2.main" />
@@ -128,13 +120,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="guess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fju.guess" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.guess" />
+        <item itemvalue="Application.GuessFrame2" />
         <item itemvalue="Application.GuessFrame" />
         <item itemvalue="Application.Win" />
         <item itemvalue="Application.MyWin" />
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.Tes (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653636889214</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Homework1 Gui guess game">
+      <created>1653640089315</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653640089315</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
