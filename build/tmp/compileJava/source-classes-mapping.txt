@@ -56,3 +56,8 @@ com/fju/ui2/Win.java
  com.fju.ui2.Win$1
  com.fju.ui2.Win$2
  com.fju.ui2.Win$3
+com/fju/ui/Myform.java
+ com.fju.ui.Myform
+com/fju/ui/GuessFrame.java
+ com.fju.ui.GuessFrame
+ com.fju.ui.GuessFrame$1
