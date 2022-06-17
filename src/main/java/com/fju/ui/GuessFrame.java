@@ -32,10 +32,8 @@ public class GuessFrame extends JFrame {
                 }else {
                     label.setText("smaller");
                 }
-                }
+            }
         });
-
-
         setLayout(new FlowLayout());
         add(number);
         add(button);
@@ -43,11 +41,6 @@ public class GuessFrame extends JFrame {
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setVisible(true);
     }
-
-
-
-
-
 
     public static void main(String[] args) {
         GuessFrame guessFrame = new GuessFrame();

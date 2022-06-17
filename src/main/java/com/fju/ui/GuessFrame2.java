@@ -1,21 +1,16 @@
 package com.fju.ui;
 
 import javax.swing.*;
-
 import java.awt.*;
-
 import java.awt.event.ActionEvent;
-
 import java.awt.event.ActionListener;
-
 import java.util.Random;
 
 public class GuessFrame2 extends JFrame {
     JButton button = new JButton("Guess");
     JLabel label = new JLabel("entry 1-100");
     JTextField number = new JTextField(7);
-    Random random = new Random();
-    int secret = random.nextInt(100) + 1;
+    int secret = new Random() .nextInt(100) + 1;
     int min = 1 ;
     int max = 100;
     public GuessFrame2() {
